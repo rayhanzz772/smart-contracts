@@ -56,7 +56,7 @@ npx hardhat node
 Deploy to that local node from another terminal:
 
 ```bash
-npx hardhat run scripts/deploy.js --network localhost
+npx hardhat run scripts/deploy.js --network sepolia
 ```
 
 The `deploy.js` script deploys the `Voting` contract with an example list of candidates:
